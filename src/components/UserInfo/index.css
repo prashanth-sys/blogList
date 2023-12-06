@@ -1,0 +1,12 @@
+/* Write your CSS code here */
+.profile-name {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 25px;
+  font-weight: 500;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #616e7c;
+}
