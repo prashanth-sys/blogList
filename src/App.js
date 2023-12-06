@@ -5,6 +5,8 @@ import About from './components/About'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
+import UserInfo from './components/UserInfo'
+import BlogList from './components/BlogList'
 
 import './App.css'
 
@@ -14,6 +16,8 @@ const App = () => (
       <Header />
       <div className="app-body">
         <Switch>
+          <UserInfo />
+          <BlogList />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
